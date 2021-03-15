@@ -43,7 +43,7 @@ module.exports = function toReadable (num) {
 var cases=[num];
 
   for (var i = 0; i < cases.length; i++) {
-    console.log(convert(cases[i]));
+    return(convert(cases[i]));
   }
 }
 
